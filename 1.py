@@ -76,6 +76,6 @@ for amount in test_amounts:
     top_down_time = timeit.timeit(lambda: find_min_coins_top_down(amount), number=100)
     bottom_up_time = timeit.timeit(lambda: find_min_coins_bottom_up(amount), number=100)
     
-    print(f"Жадібний алгоритм для {amount}: {greedy_time:.6f} seconds")
-    print(f"Динамічне програмування (Top-Down) для {amount}: {top_down_time:.6f} seconds")
-    print(f"Динамічне програмування (Bottom-Up) для {amount}: {bottom_up_time:.6f} seconds \n")
+    print(f"Жадібний алгоритм для {amount}: {greedy_time:.6f} секунд(и)")
+    print(f"Динамічне програмування (Top-Down) для {amount}: {top_down_time:.6f} секунд(и)")
+    print(f"Динамічне програмування (Bottom-Up) для {amount}: {bottom_up_time:.6f} секунд(и) \n")
